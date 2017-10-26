@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-def print_progress_bar(current=0, total=100, prefix='progress', suffix='completed', length=100, space=' ', fill='█', show_balance=False):
+def print_progress_bar(current=0, total=100, prefix='progress', suffix='completed', length=100, space=' ', fill='█', show_balance=False, completed=False):
     import sys
 
+    current = 100 if completed else current
     percentage = (current * 100) / total
     progress = int((percentage * length)/100)
     bar =  space * int(length - progress)
