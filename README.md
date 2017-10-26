@@ -5,7 +5,7 @@ Is a Python script wich can be used to show the progress about something in cons
 ### Getting started
 
 ```
-git clone https://github.com/eduardogpg/dropbox_uploader.git
+git clone https://github.com/eduardogpg/progress_bar_python.git
 ```
 
 ### Usage
